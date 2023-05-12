@@ -15,7 +15,7 @@ body{
 }
 
 .netflix-navbar{
-    /* background-color: #0C0C0C !important; */
+    
     z-index: 1000;
     transition: background 0.2s linear;
     position: fixed;
@@ -29,7 +29,7 @@ body{
 .netflix-row{
     width: 100%;
     display: flex;
-    justify-content: space-between !important;
+    justify-content: space-between;
     align-items: center;
 }
 .netflix-row .left{
@@ -47,13 +47,13 @@ body{
     background-color: transparent;
     color: #fff;
     border: none;
-    font-size: 9px !important;
+    font-size: 9px ;
 }
 
 .netflix-dropdown-box .dropdown-menu{
     background-color: rgba(0, 0, 0, 0.784);
-    font-size: 9px !important;
-    color: #fff !important;
+    font-size: 9px ;
+    color: #fff ;
     margin-left: -80px;
     border-top: 3px solid #fff;
     margin-top: 30px;
